@@ -19,6 +19,7 @@
     :root {
         --color1:#2196F3;
         --color2:#FFFFFF;
+        --color3:#F5F4FA;
     }
 
    
@@ -166,8 +167,14 @@
     color: #757575;
     }
 
-    .icon-svg{
-        background: aqua;
+    .listsitem::before{
+     content:"";
+     background: url(../images/icons/envelopehover.svg);
+
+        
+    }
+    .it:hover path{
+        fill:#757575;
     }
     /*Решения для бизнеса*/
     
@@ -247,6 +254,20 @@
     margin: -14px;
     }
 
+    .box{
+
+    display: inline-block;
+    justify-content:center;
+    width: 270px;
+    height: 120px;
+    margin-right: 20px;
+
+    background: var(--color1); 
+    border-radius: 4px;
+    
+   
+
+    }
     .text {
     font-weight: 400px;
     font-size: 14px;
@@ -337,6 +358,18 @@
     .proit{ 
         text-align: center;
         margin-top: 10px;
+    }
+
+    .itbox{
+    display: inline-block;
+    justify-content:center;
+    margin-left: 20px;
+   
+    width: 170px;
+    height: 92px;
+
+    background: var(--color1); 
+    border-radius: 4px;
 
     }
     
