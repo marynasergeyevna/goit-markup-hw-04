@@ -255,19 +255,49 @@
     }
 
     .box{
-
     display: inline-block;
     justify-content:center;
     width: 270px;
     height: 120px;
     margin-right: 20px;
 
-    background: var(--color1); 
+    background: var(--color3); 
     border-radius: 4px;
+    }
     
-   
+    /*.box:nth-child(1){
+    background-image: url(../images/icons/antenna1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    }
+
+    .box:nth-child(2){
+    background-image: url(../images/icons/clock1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    }
+
+    .box:nth-child(3){
+    background-image: url(../images/icons/diagram1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    }
+
+    .box:nth-child(4){
+    background-image: url(../images/icons/astronaut1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    } */
+
+
+    .it{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+  
 
     }
+
     .text {
     font-weight: 400px;
     font-size: 14px;
@@ -303,8 +333,6 @@
     .itemmade{
     display: inline-block;
     margin-right: 20px;
-    
-    
     }
     
     /*Наша команда*/
@@ -368,11 +396,48 @@
     width: 170px;
     height: 92px;
 
-    background: var(--color1); 
+    background: var(--color3); 
     border-radius: 4px;
+    }
+
+    .itbox:nth-child(1){
+    background-image: url(../images/icons/group1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    }
+
+    .itbox:nth-child(2){
+    background-image: url(../images/icons/group2.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    }
+
+    .itbox:nth-child(3){
+    background-image: url(../images/icons/group3.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    }
+
+    .itbox:nth-child(4){
+    background-image: url(../images/icons/group4.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    }
+
+    .itbox:nth-child(5){
+    background-image: url(../images/icons/group5.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 
     }
-    
+
+    .itbox:nth-child(6){
+    background-image: url(../images/icons/group6.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+        
+    }
+
     /*Футер*/
     
     .footesection {
